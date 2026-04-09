@@ -1,0 +1,10 @@
+`timescale 1ns / 10ps
+
+module usb_tx(
+    input logic [6:0] buffer_occupancy,
+    input logic [7:0] tx_packet_data,
+    input logic [2:0] tx_packet,
+    output logic dp_out, dm_out, get_tx_packet_data, tx_error, tx_transfer_active
+);
+    //TODO
+endmodule
